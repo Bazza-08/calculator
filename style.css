@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:root {
+    --mainOrange: rgb(245,146,62);
+    --screenBlack: rgb(41,41,56);
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    font-size: 4em;
+    background: var(--screenBlack);
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+button {
+    font-size: 4em;
+    flex-basis: 25%;  
+    margin: 0;
+    transition: 1.5s; 
+    cursor: pointer;
+}
+
+button:hover {
+    background: blue;
+}
+
+.symbol {
+    background: var(--mainOrange);
+    color: white;
+}
+
+.equals {
+    background: green;
+}
+
+.clear {
+    background: red;
+}
